@@ -59,3 +59,64 @@ body {
     border-top:2px solid black;
     border-bottom:2px solid black;
 }
+
+.container{
+    padding: 0px 8.5%;
+    margin: 0 0 300px;
+}
+
+.arrows{
+    
+    margin:180px 0px 150px;
+    
+}
+
+.arrow{
+    display: inline-block;
+    align-items: center;
+    border: 2px solid rgb(212, 203, 203);
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px;
+    box-shadow: 0px 10px 15px -4px rgba(0,0,0,0.73);
+
+}
+
+.animation:hover{
+    background-color:#F2F2F2;
+}
+
+.animation:active {
+    box-shadow: 0px 0px 4px -4px rgba(0,0,0,0.73);
+    transform: translateY(4px);
+    transition: 0.5s;
+}
+
+.animation::after {
+    transition: 0.5s;
+}
+
+.arrow img{
+    display: block;
+    margin: 20px auto;
+}
+
+.dimension{
+
+    font-size: 65px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+ 
+}
+
+.dimension span{   
+    font-size: 65px;
+    font-weight: 800;
+    
+    line-height: 50px;
+    letter-spacing: 5px;
+    color:black
+}
