@@ -4,28 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/project.css">
+    <link rel="stylesheet" href="style/index.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <section class="nav-bar">
-            <div class="logo">
-               <img src="images/logo.png" alt="">
-            </div>
-            <div class="nav_categories">
-                <ul class="nav">
-                    <li><a class="name" href="index.html">Home</a></li>
-                    <li><a class="name" href="galerry.html">Galery</a></li>
-                    <li><a class="name" href="projects.html">Proects</a></li>
-                    <li><a class="name" href="@">Documents</a></li>
-                    <li><a class="name" href="@">Contacts</a></li>
-                    <li><a class="name" href="@">Portfolio</a></li>
-                </ul>
-            </div>
-        </section>
-    </header>
-
+   
+<?php
+    include('nav.php');
+    ?>
     
     <section class="container">
         <div class="projects">
@@ -55,5 +41,9 @@
             </div>
         </div>
     </section>
+
+    <?php
+    include('footer.php');
+    ?>
 </body>
 </html>

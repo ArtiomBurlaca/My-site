@@ -9,25 +9,9 @@
     <title>Designe</title>
 </head>
 <body>
-    <header>
-        <section class="nav-bar">
-            <div class="logo">
-               <img src="images/index_img/logo.png" alt="">
-            </div>
-            <div class="nav_categories">
-                <ul class="nav">
-                    <li><a class="name" href="index.html">Home</a></li>
-                    <li><a class="name" href="galerry.html">Galery</a></li>
-                    <li><a class="name" href="projects.html">Proects</a></li>
-                    <li><a class="name" href="@">Documents</a></li>
-                    <li><a class="name" href="@">Contacts</a></li>
-                    <li><a class="name" href="@">Portfolio</a></li>
-                </ul>
-            </div>
-        </section>
-
-    </header>
-
+<?php
+    include('nav.php');
+    ?>
      <section class="container">
         <div class="description">
             <div class="text_inner inline">
@@ -141,38 +125,8 @@
             </div><button class="button animation"><span>Contact</span></button>
         </section>
     </section>
-    <footer class="footer">  
-        <div class="footer_logo inline"><img src="images/index_img/footer_logo.png" alt=""></div>
-        <div class="information">
-            <ul>
-                <li><a class="footer_name_title" href="#">Information</a></li>
-                <li><a class="footer_name" href="index.html">Main</a></li>
-                <li><a class="footer_name" href="projects.html">Project</a></li>
-                <li><a class="footer_name" href="#">Certificats</a></li>
-                <li><a class="footer_name" href="#">Contacts</a></li>
-                <li><a class="footer_name" href="galerry.html">Galery</a></li>
-            </ul>
-        </div>
-
-        <div class="contact color">
-            <ul>
-                <li> <a class="footer_name_title" href="#">Contacts</a></li>
-                <li> <a class="footer_name" href="#"><img src="images/index_img/geo.png" alt=""> Adress</a></li>
-                <li> <a class="footer_name" href="#"><img src="images/index_img/phone.png" alt=""> +37368548921</a></li>
-                <li> <a class="footer_name" href="#"><img src="images/index_img/mail.png" alt=""> artiomburlaca@gmail.com</a></li>
-            </ul>
-        </div>
-
-        <div class="media color">
-            <div class="footer_name_title">Social Media</div>
-            <div class="social">
-                <div class="icon inline"><a href="#" target="_blank"><img src="images/index_img/facebook.png" alt=""></a></div>
-                <div class="icon inline"><a href="#" target="_blank"><img src="images/index_img/twiter.png" alt=""></a></div>
-                <div class="icon inline"><a href="#" target="_blank"><img src="images/index_img/in.png" alt=""></a></div>
-                <div class="icon inline"><a href="https://www.pinterest.com/ " target="_blank"><img src="images/index_img/pinterest.png" alt=""></a></div>
-            </div>
-        </div>
-    </footer>
-
+    <?php
+   include('footer.php')
+   ?>
 </body>
 </html>
