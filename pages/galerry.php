@@ -47,12 +47,12 @@
                 <div class="title_galerry"><span>More information</span></div>
                 </div>
             </div>
-            <div class="arrows">
-                <div class="arrow inline animation"><img src="images/arrowleft.png" alt=""> </div>
-                <div class="arrow inline animation"><img src="images/arrowrigh.png" alt=""></div>
+            <div class="arrows_galerry inline">
+                <div class="arrow inline animation"><img src="images/index_img/arrowleft.png" alt=""> </div>
+                <div class="arrow inline animation"><img src="images/index_img/arrowrigh.png" alt=""></div>
                
             </div>
-           <div class="num">01 / 10
+           <div class="num position_galerry inline">01 / 10
            </div>
         </section>
     </section>

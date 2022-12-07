@@ -10,7 +10,6 @@
                     <li><a class="name" href="projects.php">Proects</a></li>
                     <li><a class="name" href="documents.php">Documents</a></li>
                     <li><a class="name" href="contacts.php">Contacts</a></li>
-                    <li><a class="name" href="portfolio.php">Portfolio</a></li>
                 </ul>
             </div>
         </section>

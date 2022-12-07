@@ -14,32 +14,56 @@
     ?>
     
     <section class="container">
-        <div class="projects">
-            <div class="color dimension">Project <br><span> Galerry </span></div>
-                <div class="project1">
-                    <div class="img"><img src="images/project_img/hi scool.png" alt=""></div>
-                    <div class="description">
-                        <div class="description_title">
-                            Hight scool
-                        </div>
-                        <div class="desctiption_text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo possimus voluptatem eaque quam illum ducimus, vitae tempora molestiae odio dolor!
-                        </div>
-                        <button class="button"><span>More info</span></button>
-                    </div>
+     <h2 class="color"><span>Our </span>  <br>Projects</h1></div>
+            
+        <section class="projects_done">
+            <img Class="inline projects_size" src="images/project_img/school.jpg" alt="">
+            <div class="description_projects inline ">
+                <div class="desctription_projects_title color">
+                    Hi School
                 </div>
-                <div class="arrows">
-                    <div class="arrow inline animation"><img src="images/arrowleft.png" alt=""> </div>
-                    <div class="arrow inline animation"><img src="images/arrowrigh.png" alt=""></div>
+                <div class="desctription_projects_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil natus delectus nesciunt fuga, error corrupti quae expedita mollitia accusamus cum laborum minus aperiam, necessitatibus quaerat libero ab facilis ipsum reiciendis?
                 </div>
-               <div class="num">01 / 02
-               </div>
+
+                <button class="button animation">Reab more</button>
             </div>
-            <div class="img inline">
-                <img src="images/Nurtown.png" alt="">
-                <button class="button position animation"><span >Morre</span></button>
+        </section>
+
+        <section class="projects_done">
+            <img Class="inline" src="images/project_img/office.png" alt="">
+            <div class="description_projects inline ">
+                <div class="desctription_projects_title color">
+                    Office
+                </div>
+                <div class="desctription_projects_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil natus delectus nesciunt fuga, error corrupti quae expedita mollitia accusamus cum laborum minus aperiam, necessitatibus quaerat libero ab facilis ipsum reiciendis?
+                </div>
+
+                <button class="button animation">Reab more</button>
             </div>
+        </section>
+
+        <section class="projects_done">
+            <img Class="inline projects_size" src="images/project_img/parking.jpg" alt="">
+            <div class="description_projects inline ">
+                <div class="desctription_projects_title color">
+                    Parching
+                </div>
+                <div class="desctription_projects_text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil natus delectus nesciunt fuga, error corrupti quae expedita mollitia accusamus cum laborum minus aperiam, necessitatibus quaerat libero ab facilis ipsum reiciendis?
+                </div>
+
+                <button class="button animation">Reab more</button>
+            </div>
+        </section>
+
+        <div class="arrows_projects inline">
+            <div class="arrow inline animation"><img src="images/index_img/arrowleft.png" alt=""> </div>
+            <div class="arrow inline animation"><img src="images/index_img/arrowrigh.png" alt=""></div>
+           
         </div>
+       <div class="num inline">01 / 02
     </section>
 
     <?php
